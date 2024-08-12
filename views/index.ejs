@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Here's How the Weather is Looking Today</h1> 
-    <p> <%= weather %></p>
+    <div class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+   <div class="text"> <h1 class="heading">Here's How the Weather is Looking Today</h1> </div>  
+   <div class="text"> <p class="paragraph"> Today the weather is mainly <%= weather %> with <%= description %></p> </div> 
 </body>
 </html>

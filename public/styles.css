@@ -1,0 +1,60 @@
+.heading {
+    font-size: 24px;
+    color: blue;
+    text-align: center;
+    margin: 50px;
+    
+}
+
+body {
+    background-image: url(images/sky-11118_512.gif);
+    background-size: cover;
+    background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            background-attachment: fixed; /* Keep the image fixed during scrolling */
+    
+}
+.paragraph {
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0;
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li {
+    /* margin: 10px; */
+    margin-left: 50px;
+   
+ 
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    size: 50px;
+    font-size: 20px;
+    
+}
+
+.navbar ul li a:hover {
+    color: red;
+    background-color: yellow;
+}
+
+.text {
+    color: red;
+    font-size: large;
+    text-align: center;
+}
